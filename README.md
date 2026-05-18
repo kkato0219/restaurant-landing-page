@@ -1,36 +1,41 @@
-# Restaurant Landing Page
+# Sora Dining — Restaurant Landing Page
 
-A responsive restaurant landing page built with HTML and CSS.
+A modern restaurant landing page with a dark gold theme, built with HTML and CSS.
 
 ## Live Demo
 https://kkato0219.github.io/restaurant-landing-page/
 
 ## Features
-- Responsive navigation layout
-- Hero section with background image
-- Popular dishes section
+- Sticky navigation with Reserve button
+- Hero section with full-screen background image
+- Popular dishes section with images and prices
 - Why choose us section
-- Customer reviews section
-- Reservation call-to-action section
-- Clean dark-themed design
+- Photo gallery section
+- Customer reviews section (3 reviews)
+- Access / location info section
+- Reservation form with success message
+- Fully responsive design (mobile friendly)
+- Smooth hover animations
 
 ## Technologies Used
 - HTML5
 - CSS3
+- Google Fonts (Playfair Display, Lato)
 - Flexbox
 - CSS Grid
+
+## What I Learned
+- How to build a multi-section LP from scratch
+- Dark theme design with gold accent colors
+- How to build a working reservation form
+- CSS Grid for gallery and dish card layouts
+- Responsive design with media queries
 
 ## Screenshots
 
 ### Hero Section
-(![hero section](assets/hero.png))
-
-### Popular Dishes Section
-(![dishes section](assets/dishes.png))
-
-### Reviews & Reservation Section
-(![testimonials section](assets/testimonials.png))
-
-## What I Learned
-Through this project, I practiced building a different landing page layout compared to my previous projects.
-I focused on section structure, hero design, and creating a more modern restaurant-style UI.
+![hero](assets/hero.png)
+![dishes](assets/dishes.png)
+![gallery](assets/gallery.png)
+![reviews](assets/reviews.png)
+![reservation](assets/reservation.png)

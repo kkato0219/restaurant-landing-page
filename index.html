@@ -4,108 +4,317 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sora Dining</title>
+
+    <!-- Google Fonts: Playfair Display for headings, Lato for body text -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- ========== HEADER / NAV ========== -->
     <header>
         <div class="container header-container">
-            <h1 class="logo">Sora Dining</h1>
+            <a href="#hero" class="logo">Sora <span>Dining</span></a>
             <nav>
-                <a href="#hero">Home</a>
-                <a href="#dishes">Dishes</a>
-                <a href="#features">Features</a>
-                <a href="#reservation">Reservation</a>
+                <a href="#dishes">Menu</a>
+                <a href="#features">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#reservation" class="nav-btn">Reserve</a>
             </nav>
         </div>
     </header>
 
+    <!-- ========== HERO ========== -->
     <section id="hero" class="hero">
         <div class="container hero-content">
             <p class="subtitle">Fress Food & Warm Atmosphere</p>
-            <h2>Enjoy Delicious Meals With Us</h2>
-            <p>
-                A cozy restaurant serving fresh dishes, warm service, and a relaxing dining experience.
+            <h1>Enjoy Delicious Meals<br>With Us</h1>
+            <p class="hero-desc">
+                A cozy restaurant serving fresh dishes, warm service,
+                and a relaxing dining experience in the heart of Tokyo.
             </p>
-            <a href="reservation" class="btn">Reserve a Table</a>
+            <div class="hero-buttons">
+                <a href="#reservation" class="btn">Reserve a Table</a>
+                <a href="#dishes" class="btn-outline">View Menu</a>
+            </div>
         </div>
     </section>
 
+    <!-- ========== POPULAR DISHES ========== -->
     <section id="dishes" class="dishes">
         <div class="container">
+            <p class="section-label">Our Menu</p>
             <h2>Popular Dishes</h2>
 
             <div class="dish-grid">
+
                 <div class="dish-card">
-                    <h3>Grilled Chicken</h3>
-                    <p>Juicy grilled chicken served with seasonal vegetables.</p>
+                    <div class="dish-img">
+                        <img src="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=400&q=80" alt="Grilled Chicken">
+                    </div>
+                    <div class="dish-info">
+                        <div class="dish-top">
+                            <h3>Grilled Chicken</h3>
+                            <span class="dish-price">¥1,800</span>
+                        </div>
+                        <p>Juicy grilled chicken served with seasonal vegetables and herb sauce.</p>
+                    </div>
                 </div>
 
                 <div class="dish-card">
-                    <h3>Fresh Pasta</h3>
-                    <p>Homemade pasta with rich sauce and fresh ingredients.</p>
+                    <div class="dish-img">
+                        <img src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=400&q=80" alt="Fresh Pasta">
+                    </div>
+                    <div class="dish-info">
+                        <div class="dish-top">
+                            <h3>Fresh Pasta</h3>
+                            <span class="dish-price">¥1,600</span>
+                        </div>
+                        <p>Homemade pasta with rich tomato sauce and fresh basil from our garden.</p>
+                    </div>
                 </div>
 
                 <div class="dish-card">
-                    <h3>Special Dessert</h3>
-                    <p>Sweet desserts carefully prepared for a perfect finish.</p>
+                    <div class="dish-img">
+                        <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400&q=80" alt="Special Dessert">
+                    </div>
+                    <div class="dish-info">
+                        <div class="dish-top">
+                            <h3>Special Dessert</h3>
+                            <span class="dish-price">¥900</span>
+                        </div>
+                        <p>Sweet desserts carefully prepared for a perfect finish to your meal.</p>
+                    </div>
                 </div>
+
             </div>
         </div>
     </section>
 
+    <!-- ========== WHY CHOOSE US ========== -->
     <section id="features" class="features">
         <div class="container">
-            <h2>Why Choose Us</h2>
+            <p class="section-label">Why Us</p>
+            <h2>The Sora Experience</h2>
 
             <div class="feature-grid">
+
                 <div class="feature-card">
-                    <h3>Fresh ingredients</h3>
-                    <p>We use fresh and carefully selected ingredients every day.</p>
+                    <div class="feature-icon">🌿</div>
+                    <h3>Fresh Ingredients</h3>
+                    <p>We source fresh and carefully selected ingredients every single day from local farms.</p>
                 </div>
 
                 <div class="feature-card">
+                    <div class="feature-icon">🕯️</div>
                     <h3>Relaxing Space</h3>
-                    <p>A calm and comfortable place for family, friends, and special moments.</p>
+                    <p>A calm and comfortable place for family, friends, dates, and special moments.</p>
                 </div>
 
                 <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
                     <h3>Friendly Service</h3>
-                    <p>Our staff welcomes every guest with warm and careful service.</p>
+                    <p>Our staff welcomes every guest with warm and careful, and attentive service.</p>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <section class="testimonials">
+    <!-- ========== GALLERY ========== -->
+    <section id="gallery" class="gallery">
         <div class="container">
+            <p class="section-label">Our Space</p>
+            <h2>Gallery</h2>
+
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="Restaurant interior">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80" alt="Food">
+                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&q=80" alt="Dining">
+                <img src="https://images.unsplash.com/photo-1482275548304-a58859dc31b7?w=600&q=80" alt="Drinks">
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== REVIEWS ========== -->
+    <section id="reviews" class="testimonials">
+        <div class="container">
+            <p class="section-label">Testimonials</p>
             <h2>Customer Reviews</h2>
 
             <div class="review-grid">
+                
                 <div class="review-card">
-                    <p>"The food was fresh and the atmosphere was very relaxing."</p>
-                    <h4>- Aiko</h4>
+                    <div class="stars">★★★★★</div>
+                    <p>"The food was incredibly fresh and the atmosphere was very relaxing. Will definitely come back!"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">A</div>
+                        <h4>Aiko Tanaka</h4>
+                    </div>
                 </div>
 
                 <div class="review-card">
-                    <p>"Great service and delicious dishes. I would love to visit again."</p>
-                    <h4>- Ken</h4>
+                    <div class="stars">★★★★★</div>
+                    <p>"Great service and delicious dishes. The grilled chicken was amazing. I would love to visit again."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">K</div>
+                        <h4>Kenji Yamamoto</h4>
+                    </div>
                 </div>
+
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"A hidden gem in Tokyo. The pasta was the best I've had in a long time. The staff were so friendly."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">M</div>
+                        <h4>Mika Sato</h4>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
+    <!-- ========== ACCESS ========== -->
+     <section class="access">
+        <div class="container access-grid">
+
+            <div class="access-info">
+                <p class="section-label">Access</p>
+                <h2>Find Us</h2>
+                <div class="access-details">
+                    <div class="access-item">
+                        <span class="access-icon">📍</span>
+                        <div>
+                            <strong>Address</strong>
+                            <p>東京都渋谷区神南1-2-3 ソラビル2F</p>
+                        </div>
+                    </div>
+                    <div class="access-item">
+                        <span class="access-icon">🕐</span>
+                        <div>
+                            <strong>Hours</strong>
+                            <p>Mon–Fri: 11:30 – 22:00<br>Sat–Sun: 11:00 – 23:00</p>
+                        </div>
+                    </div>
+                    <div class="access-item">
+                        <span class="access-icon">📞</span>
+                        <div>
+                            <strong>Phone</strong>
+                            <p>03-1234-5678</p>
+                        </div>
+                    </div>
+                    <div class="access-item">
+                        <span class="access-icon">🚃</span>
+                        <div>
+                            <strong>Nearest Station</strong>
+                            <p>渋谷駅 徒歩5分</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map placeholder -->
+            <div class="map-placeholder">
+                <p>📍 Sora Dining</p>
+                <p><p>渋谷区神南1-2-3</p></p>
+            </div>
+
+        </div>
+     </section>
+
+    <!-- ========== RESERVATION FORM ========== -->
     <section id="reservation" class="reservation">
         <div class="container">
+            <p class="section-label">Book a Table</p>
             <h2>Reserve Your Table</h2>
-            <p>Enjoy a relaxing meal with fresh food and warm service.</p>
-            <a href="mailto:hello@soradining.com" class="btn">Contact Us</a>
+            <p class="reservation-desc">Fill in the form below and we will confirm your reservation by email.</p>
+
+            <!-- This is the contact form — all fields are required -->
+            <form class="reservation-form" onsubmit="handleSubmit(event)">
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="eamail">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <select id="time" name="time" required>
+                            <option value="">Select time</option>
+                            <option>11:30</option>
+                            <option>12:00</option>
+                            <option>13:00</option>
+                            <option>18:00</option>
+                            <option>19:00</option>
+                            <option>20:00</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Guests</label>
+                        <select id="guests" name="guests" required>
+                            <option value="">Number</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5+</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Special Requests (optional)</label>
+                    <textarea id="message" name="message" rows="3" placeholder="Allergies, birthday, special occasion..."></textarea>
+                </div>
+
+                <button type="submit" class="btn">Reserve Now</button>
+
+            </form>
+
+            <!-- Success message (hidden by default) -->
+            <div id="success-msg" class="success-msg" style="display: none;">
+                ✅ Thank you! Your reservation has been received. We will confirm by email soon.
+            </div>
+
         </div>
     </section>
 
+    <!-- ========== FOOTER ========== -->
     <footer>
-        <p>© 2026 Sora Dining. All rights reserved.</p>
+        <div class="container footer-container">
+            <p class="footer-logo">Sora <span>Dining</span></p>
+            <p>© 2026 Sora Dining. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#dishes">Menu</a>
+                <a href="#reservation">Reserve</a>
+                <a href="mailto:hello@soradining.com">Contact</a>
+            </div>
+        </div>
     </footer>
+
+    <script>
+        // Simple form submit handler
+        // When you learn backend, you can replace this with a real API call
+        function handleSubmit(event) {
+        event.preventDefault(); // stops page from refreshing
+        document.querySelector('.reservation-form').style.display = 'none';
+        document.getElementById('success-msg').style.display = 'block';
+        }
+    </script>
 
     
 </body>
