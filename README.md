@@ -35,7 +35,7 @@ https://kkato0219.github.io/restaurant-landing-page/
 
 ### Hero Section
 ![hero](assets/hero.png)
-![dishes](assets/dishes.png)
+![dish](assets/dishes.png)
 ![gallery](assets/gallery.png)
 ![reviews](assets/reviews.png)
 ![reservation](assets/reservation.png)
